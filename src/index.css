@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  overflow-x: hidden;
+}
+
+
 ::-webkit-scrollbar {
   width: 12px;
   background-color: #2196F3;

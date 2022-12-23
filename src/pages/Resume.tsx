@@ -16,7 +16,7 @@ export default function Resume() {
                     <h2>Experiência</h2>
                     <div className="works">
                         <div className="icons">
-                            <FaBriefcase size={30} color="#4009e5" />
+                            <FaBriefcase size={30} color="#2196F3" />
                             <span>Gama Academy</span>
                         </div>
                         <p>• Gama Experience | Jun 2022 - Dez 2022
@@ -29,7 +29,7 @@ export default function Resume() {
                     </div>
                     <div className="works">
                         <div className="icons">
-                            <FaBriefcase size={30} color="#4009e5" />
+                            <FaBriefcase size={30} color="#2196F3" />
                             <span>Recepcionista Administrativo</span>
                         </div>
                         <p>•  Notredame Intermédica | Ago 2022 - Nov 2022
@@ -41,7 +41,7 @@ export default function Resume() {
                     </div>
                     <div className="works">
                         <div className="icons">
-                            <FaBriefcase size={30} color="#4009e5" />
+                            <FaBriefcase size={30} color="#2196F3" />
                             <span>Auxiliar Administrativo Geral</span>
                         </div>
                         <p>• Centro Automotivo | Jun 2020 - Out 2022
