@@ -42,7 +42,7 @@ export default function Resume() {
                     <div className="works">
                         <div className="icons">
                             <FaBriefcase size={30} color="#2196F3" />
-                            <span>Auxiliar Administrativo Geral</span>
+                            <span>Auxiliar Administrativo</span>
                         </div>
                         <p>• Centro Automotivo | Jun 2020 - Out 2022
                             <br></br><br></br>
@@ -169,5 +169,59 @@ font-family: Nunito, sans-serif;
         font-size: 1.5rem;
         line-height: 2.2rem;
     }
+}
+
+@media (max-width: 480px) {
+
+.content {
+  padding: 18px;
+  width: 70vw;
+
+  h1 {
+    color: #2196F3;
+    font-size: 2rem;
+  }
+
+  h2 {
+    margin: 8rem 0 0 0;
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.icons {
+    display: flex;
+    margin: 3rem 0 3rem 0;
+    align-items: center;
+    span {
+        font-size: 1.6rem;
+        color: #4009e5;
+        margin: 0 0 0 1rem;
+    }
+}
+
+.works {
+    margin: 6rem 0 0 0;
+    color: white;
+
+    p {
+        text-align: center;
+    }
+
+    p:block {
+        font-size: 1rem;
+        line-height: 2.9rem;
+    }
+}
+
+.education {
+    margin: 6rem 0 0 0;
+    color: white;
+    p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+}
+
 }
 `

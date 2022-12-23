@@ -58,4 +58,36 @@ p {
   margin-top: 10px;
   margin-right: 7px;
 }
+
+@media (max-width: 480px) {
+  
+  .content {
+  margin: 200px auto;
+  width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #2196F3;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+.icon {
+  color: #2196F3;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+}
 `

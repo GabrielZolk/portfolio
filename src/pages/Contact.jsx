@@ -20,6 +20,4 @@ const Background = styled.div`
 background-color: #111111;
 display: flex;
 font-family: Nunito, sans-serif;
-
-
 `

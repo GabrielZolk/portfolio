@@ -113,4 +113,30 @@ a {
   }
 }
 
+@media (max-width: 480px) {
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project {
+    margin: 4rem 0 0 1rem;
+
+    p {
+    width: 13.5rem;
+    font-size: 1.1rem;
+    margin: 1.3rem 0 2rem 0;
+    color: white;
+    }
+
+    img {
+      width: 13rem;
+      max-height: 10.351rem;
+    }
+
+  }
+}
+
+
 `

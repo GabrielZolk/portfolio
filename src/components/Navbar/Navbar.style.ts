@@ -66,4 +66,68 @@ export const NavbarStyle = styled.div`
         text-decoration: none;
         color: white;
     }
+
+    @media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    nav ul {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .nav-container {
+        height: 55vh;
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 100vh;
+        color: white;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav ul {
+        padding-top: 1rem;
+    }
+
+    .nav-container {
+        height: 55vh;
+    }
+
+    nav ul li {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 100vh;
+        color: white;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+}
+
 `

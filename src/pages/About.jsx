@@ -24,11 +24,11 @@ export default function About() {
           <h3>Oi!</h3>
           <p>Desenvolvedor apaixonado por soluções simples para problemas difíceis. Entusiasta de métodos ágeis, ambientes flexíveis e entrega contínua.</p>
           <ul className='about-me'>
-            <li className='about-item'>Nome completo: Gabriel da Silva Queiroz</li>
-            <li className='about-item'>Idade: 22</li>
-            <li className='about-item'>Nacionalidade: Brasileiro</li>
-            <li className='about-item'>Idiomas: Portugues, Inglês</li>
-            <li className='about-item'>Localização: São Paulo, Brasil</li>
+            <li className='about-item about-name'>Nome completo: Gabriel da Silva Queiroz</li>
+            <li className='about-item about-age'>Idade: 22</li>
+            <li className='about-item about-nac'>Nacionalidade: Brasileiro</li>
+            <li className='about-item about-languages'>Idiomas: Portugues, Inglês</li>
+            <li className='about-item about-loc'>Localização: São Paulo, Brasil</li>
           </ul>
           <button className="pdf-download-button" onClick={handleClick}>Visualizar CV</button>
           <h2>Serviços</h2>
@@ -113,5 +113,59 @@ h2 {
 .services {
   margin: 40px 0 0 0;
   display: flex;
+}
+
+@media (max-width: 480px) {
+
+.content {
+padding: 35px;
+width: 80vw;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 27px;
+  color: white;
+}
+
+  .image img {
+  margin-top: 80px;
+  width: 200px;
+}
+
+h3 {
+  color: #2196F3;
+  font-size: 60px;
+  margin: 50px 0 50px 0;
+}
+
+p { 
+  color: white;
+  width: 13rem;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #2196F3;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 50px;
+  margin: 120px 0 0 0;
+  color: white;
+}
+
+.services {
+  margin: 40px 0 0 0;
+  display: grid;
+  grid-template-columns: (1, 1fr);
+}
 }
 `
