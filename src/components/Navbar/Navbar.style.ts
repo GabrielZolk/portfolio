@@ -67,99 +67,69 @@ export const NavbarStyle = styled.div`
         color: white;
     }
 
-    @media (max-width: 1200px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
+    @media (max-width: 1110px) {
+        img {     
+            width: 180px;
+            height: 180px;   
+        }
     }
 
-    img {
-        width: 190px;
-        height: 190px;
+    @media (max-width: 944px) {
+        footer {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 799px) {
+        img {
+            width: 130px;
+            height: 130px;
+        }
+
+        .nav-container {
+            font-size: 20px;
+        }
     }
 
-    nav ul {
-        padding-top: 7rem;
+    @media (max-width: 557px) {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+
+        .nav-container {
+            font-size: 14px;
+        }
     }
 
-    .nav-container {
-        height: 55vh;
+    @media (max-width: 419px) {
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .nav-container {
+            font-size: 10px;
+        }
+
+        footer {
+            font-size: 15px;
+        }
     }
 
-    nav ul li {
-        font-size: 35px;
-    }
+    @media (max-width: 340px) {
+        img {
+            width: 70px;
+            height: 70px;
+        }
 
-    footer {
-        width: 200px;
-        height: 100vh;
-        color: white;
-        font-size: 30px;
-        padding-top: 15px;
-    }
-}
+        .nav-container {
+            font-size: 8px;
+        }
 
-    @media (max-width: 480px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
+        footer {
+            font-size: 12px;
+        }
     }
-
-    img {
-        width: 150px;
-        height: 150px;
-    }
-
-    nav ul {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-
-    .nav-container {
-        height: 55vh;
-    }
-
-    nav ul li {
-        font-size: 20px;
-    }
-
-    footer {
-        height: 100vh;
-        color: white;
-        font-size: 20px;
-        padding-top: 15px;
-    }
-}
-
-@media (max-width: 360px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-    }
-
-    img {
-        width: 100px;
-        height: 100px;
-    }
-
-    nav ul {
-        padding-top: 1rem;
-    }
-
-    .nav-container {
-        height: 55vh;
-    }
-
-    nav ul li {
-        font-size: 15px;
-    }
-
-    footer {
-        height: 100vh;
-        color: white;
-        font-size: 14px;
-        padding-top: 15px;
-    }
-}
 
 `

@@ -20,7 +20,7 @@ export default function Navbar() {
                             <li><NavLink to="/projects" className="nav-item">PROJETOS</NavLink></li>
                             <li><NavLink to="/contact" className="nav-item">CONTATO</NavLink></li>
                         </ul>
-                    </nav>
+                    </nav>        
                     <footer>
                         <span>@2022 Portfolio - Todos direitos reservados</span>
                     </footer>

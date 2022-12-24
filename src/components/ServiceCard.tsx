@@ -19,7 +19,7 @@ const ServiceCardStyled = styled.div`
         transform: translateY(3px);
     }
     .container{
-        padding: 1.2rem;
+        padding-right: 1.2rem;
         h4{
             color: white;
             font-size: 1.6rem;

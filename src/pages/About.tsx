@@ -6,6 +6,7 @@ import ServiceCard from '../components/ServiceCard'
 import design from '../imgs/design.svg'
 import intelligence from '../imgs/intelligence.svg';
 import gamedev from '../imgs/game-dev.svg';
+import "../index.css"
 
 export default function About() {
   const handleClick = () => {
@@ -33,16 +34,16 @@ export default function About() {
           <button className="pdf-download-button" onClick={handleClick}>Visualizar CV</button>
           <h2>Serviços</h2>
           <div className='services'>
-          <ServiceCard
-            title={'Web Design'}
-            image={design} />
-          <ServiceCard
-            image={intelligence}
-            title={'Data Analytics'} />
-          <ServiceCard
-            image={gamedev}
-            title={'Solução de Problemas'} />
-            </div>
+            <ServiceCard
+              title={'Web Design'}
+              image={design} />
+            <ServiceCard
+              image={intelligence}
+              title={'Data Analytics'} />
+            <ServiceCard
+              image={gamedev}
+              title={'Solução de Problemas'} />
+          </div>
         </div>
       </Background>
 
@@ -56,7 +57,7 @@ display: flex;
 font-family: Nunito, sans-serif;
 
 .content {
-  padding: 100px;
+  padding: 40px;
   width: 80vw;
 }
 
@@ -115,206 +116,101 @@ h2 {
   display: flex;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 826px) {
 
-.content {
-padding: 30px;
-width: 80vw;
-}
-
-h1 {
-  margin: 1rem 0 0 0;
-  font-weight: 200;
-  font-size: 40px;
-  color: white;
-}
+  h1 {
+    font-size: 40px;
+  }
 
   .image img {
-  margin-top: 80px;
-  width: 480px;
+    width: 400px;
+  }
 }
 
-h3 {
-  color: #2196F3;
-  font-size: 130px;
-  margin: 50px 0 50px 37px;
-}
+@media (max-width: 722px) {
 
-p { 
-  color: white;
-  text-align: center;
-  width: 30rem;
-  font-size: 40px;
-}
-
-button {
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  width: 300px;
-  height: 40px;
-  font-size: 30px;
-  background-color: #2196F3;
-}
-
-h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 88px;
-  margin: 120px 0 0 0;
-  color: white;
-}
-
-.services {
-  text-align: center;
-  margin: 40px 0 0 0;
-  display: grid;
-  grid-template-columns: (1, 1fr);
-}
-
-.about-me{
-  width: 30rem;
-  text-align: center;
-  font-size: 40px;
-  margin: 30px 0 30px 0;
-  list-style-type: none;
-  color: #2196F3;
-}
-
-.about-item {
-  margin: 15px 0 0 0;
-}
-}
-
-@media (max-width: 480px) {
-
-.content {
-padding: 35px;
-width: 80vw;
-}
-
-h1 {
-  font-weight: 200;
-  font-size: 27px;
-  color: white;
-}
+  h1 {
+    font-size: 30px;
+  }
 
   .image img {
-  margin-top: 80px;
-  width: 200px;
+    width: 300px;
+  }
+
+  .services {
+    display: grid;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
 }
 
-h3 {
-  color: #2196F3;
-  font-size: 60px;
-  margin: 50px 0 50px 0;
-}
+@media (max-width: 553px) {
 
-p { 
-  color: white;
-  width: 13rem;
-  font-size: 23px;
-}
-
-button {
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
-  background-color: #2196F3;
-}
-
-h2 {
-  font-weight: 300;
-  font-size: 50px;
-  margin: 120px 0 0 0;
-  color: white;
-}
-
-.about-me{
-  width: 14rem;
-  text-align: center;
+h1 {
   font-size: 25px;
-  margin: 30px 0 30px 0;
-  list-style-type: none;
-  color: #2196F3;
 }
 
-.services {
-  margin: 40px 0 0 0;
-  display: grid;
-  grid-template-columns: (1, 1fr);
-}
+.image img {
+  width: 240px;
 }
 
-@media (max-width: 360px) {
 
-.content {
-padding: 5px;
-width: 80vw;
+h2 {
+  font-size: 50px;
 }
+
+}
+
+@media (max-width: 490px) {
 
 h1 {
-  margin: 1rem 0 0 0;
-  font-weight: 200;
-  font-size: 40px;
-  color: white;
+  font-size: 20px;
 }
 
-  .image img {
-  margin-top: 80px;
+.image img {
+  width: 200px;
+}
+
+p { 
+  color: white;
+  font-size: 15px;
+  width: 220px;
+}
+
+button {
   width: 190px;
 }
 
-h3 {
-  color: #2196F3;
-  font-size: 60px;
-  margin: 50px 0 50px 37px;
+h2 {
+  font-size: 40px;
+}
+
+}
+
+@media (max-width: 395px) {
+
+.image img {
+  width: 170px;
 }
 
 p { 
   color: white;
-  text-align: center;
-  width: 12.5rem;
-  font-size: 20px;
+  font-size: 15px;
+  width: 180px;
 }
 
 button {
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  width: 182px;
-  height: 40px;
-  font-size: 20px;
-  background-color: #2196F3;
+  width: 160px;
 }
 
 h2 {
-  font-weight: 300;
-  font-size: 44px;
-  margin: 120px 0 0 0;
-  color: white;
+  font-size: 40px;
 }
 
-.services {
-  margin: 40px 0 0 0;
-  display: grid;
-  grid-template-columns: (1, 1fr);
 }
 
-.about-me{
-  font-size: 20px;
-  width: 13rem;
-  text-align: center;
-  margin: 30px 0 30px 0;
-  list-style-type: none;
-  color: #2196F3;
-}
-
-.about-item {
-  margin: 15px 0 0 0;
-}
-}
 `
