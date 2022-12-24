@@ -115,6 +115,77 @@ h2 {
   display: flex;
 }
 
+@media (max-width: 1200px) {
+
+.content {
+padding: 30px;
+width: 80vw;
+}
+
+h1 {
+  margin: 1rem 0 0 0;
+  font-weight: 200;
+  font-size: 40px;
+  color: white;
+}
+
+  .image img {
+  margin-top: 80px;
+  width: 480px;
+}
+
+h3 {
+  color: #2196F3;
+  font-size: 130px;
+  margin: 50px 0 50px 37px;
+}
+
+p { 
+  color: white;
+  text-align: center;
+  width: 30rem;
+  font-size: 40px;
+}
+
+button {
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #2196F3;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 88px;
+  margin: 120px 0 0 0;
+  color: white;
+}
+
+.services {
+  text-align: center;
+  margin: 40px 0 0 0;
+  display: grid;
+  grid-template-columns: (1, 1fr);
+}
+
+.about-me{
+  width: 30rem;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0 30px 0;
+  list-style-type: none;
+  color: #2196F3;
+}
+
+.about-item {
+  margin: 15px 0 0 0;
+}
+}
+
 @media (max-width: 480px) {
 
 .content {
@@ -142,7 +213,7 @@ h3 {
 p { 
   color: white;
   width: 13rem;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 button {
@@ -162,10 +233,88 @@ h2 {
   color: white;
 }
 
+.about-me{
+  width: 14rem;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px 0 30px 0;
+  list-style-type: none;
+  color: #2196F3;
+}
+
 .services {
   margin: 40px 0 0 0;
   display: grid;
   grid-template-columns: (1, 1fr);
+}
+}
+
+@media (max-width: 360px) {
+
+.content {
+padding: 5px;
+width: 80vw;
+}
+
+h1 {
+  margin: 1rem 0 0 0;
+  font-weight: 200;
+  font-size: 40px;
+  color: white;
+}
+
+  .image img {
+  margin-top: 80px;
+  width: 190px;
+}
+
+h3 {
+  color: #2196F3;
+  font-size: 60px;
+  margin: 50px 0 50px 37px;
+}
+
+p { 
+  color: white;
+  text-align: center;
+  width: 12.5rem;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  width: 182px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #2196F3;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 44px;
+  margin: 120px 0 0 0;
+  color: white;
+}
+
+.services {
+  margin: 40px 0 0 0;
+  display: grid;
+  grid-template-columns: (1, 1fr);
+}
+
+.about-me{
+  font-size: 20px;
+  width: 13rem;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  list-style-type: none;
+  color: #2196F3;
+}
+
+.about-item {
+  margin: 15px 0 0 0;
 }
 }
 `

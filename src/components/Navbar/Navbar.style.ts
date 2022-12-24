@@ -67,6 +67,38 @@ export const NavbarStyle = styled.div`
         color: white;
     }
 
+    @media (max-width: 1200px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 190px;
+        height: 190px;
+    }
+
+    nav ul {
+        padding-top: 7rem;
+    }
+
+    .nav-container {
+        height: 55vh;
+    }
+
+    nav ul li {
+        font-size: 35px;
+    }
+
+    footer {
+        width: 200px;
+        height: 100vh;
+        color: white;
+        font-size: 30px;
+        padding-top: 15px;
+    }
+}
+
     @media (max-width: 480px) {
     .sidebar {
         width: 100%;
@@ -99,7 +131,7 @@ export const NavbarStyle = styled.div`
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .sidebar {
         width: 100%;
         height: auto;
