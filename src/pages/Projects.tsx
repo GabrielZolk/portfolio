@@ -11,6 +11,9 @@ import img7 from '../imgs/portfolio/skatepark.png';
 import img8 from '../imgs/portfolio/gzlogin.png';
 import img9 from '../imgs/portfolio/pokedex.png';
 import img10 from '../imgs/portfolio/vidaemdia.png';
+import img11 from '../imgs/portfolio/workshop.png';
+import img12 from '../imgs/portfolio/churrascometro.png';
+import img13 from '../imgs/portfolio/tesla.png';
 
 export default function Projects() {
   return (
@@ -21,6 +24,12 @@ export default function Projects() {
           <a href='https://github.com/GabrielZolk/spotify-clone' target="_blank">
             <img src={img1} alt="netflix clone project" />
             <p>Clone de um dos serviços de streaming mais utilizados atualmente</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://tesla-clone-ten-sigma.vercel.app/' target="_blank">
+            <img src={img13} alt="tesla-clone" />
+            <p>Versão Brasileira da LangingPage da TESLA com os carros mais lindos que existem</p>
           </a>
         </div>
         <div className='project'>
@@ -77,6 +86,18 @@ export default function Projects() {
             <p>Produto criado do zero em equipe utilizando métodologias ágeis. Desde a criação de design com equipe de UX, interface com frontend, dados com backend até o build e deploy</p>
           </a>
         </div>
+        <div className='project'>
+          <a href='https://gabrielzolk.github.io/workshop2/' target="_blank">
+            <img src={img11} alt="workshop webpage" />
+            <p>Página de captura criada através de javascript</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://gabrielzolk.github.io/churrascometro-barbecue-meter/' target="_blank">
+            <img src={img12} alt="churrascometro app" />
+            <p>Projeto Churrascômetro criado através de javascript</p>
+          </a>
+        </div>
       </div>
     </Background>
   )
@@ -110,6 +131,10 @@ a {
   img {
     width: 20rem;
     max-height: 10.351rem;
+  }
+  img:hover {
+    border: 4px solid white;
+    border-radius: 5px;
   }
 }
 
