@@ -14,8 +14,8 @@ export const NavbarStyle = styled.div`
 
     img {
         border: 4px solid white;
-        width: 270px;
-        height: 270px;
+        width: 230px;
+        height: 230px;
         border-radius: 500px;
         object-fit: cover;
     }

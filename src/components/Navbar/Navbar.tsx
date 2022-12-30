@@ -18,6 +18,7 @@ export default function Navbar() {
                             <li><NavLink to="/about" className="nav-item">SOBRE MIM</NavLink></li>
                             <li><NavLink to="/resume" className="nav-item">CURRÍCULO</NavLink></li>
                             <li><NavLink to="/projects" className="nav-item">PROJETOS</NavLink></li>
+                            <li><NavLink to="/github" className="nav-item">GITHUB</NavLink></li>
                             <li><NavLink to="/contact" className="nav-item">CONTATO</NavLink></li>
                         </ul>
                     </nav>        
