@@ -1,0 +1,221 @@
+// Vitest Snapshot v1
+
+exports[`ContactForm > renders form fields and buttons 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class="sc-bcXHqe fmlIsJ"
+      >
+        <label>
+          Nome*
+          <input
+            name="name"
+            required=""
+            type="text"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Assunto
+          <input
+            name="subject"
+            type="text"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Email*
+          <input
+            name="email"
+            required=""
+            type="email"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Mensagem*
+          <textarea
+            name="message"
+          />
+        </label>
+        <br />
+        <input
+          class="submit"
+          type="submit"
+          value="Enviar"
+        />
+        <input
+          class="submit"
+          type="reset"
+          value="Redefinir"
+        />
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="sc-bcXHqe fmlIsJ"
+    >
+      <label>
+        Nome*
+        <input
+          name="name"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <br />
+      <label>
+        Assunto
+        <input
+          name="subject"
+          type="text"
+          value=""
+        />
+      </label>
+      <br />
+      <label>
+        Email*
+        <input
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+      </label>
+      <br />
+      <label>
+        Mensagem*
+        <textarea
+          name="message"
+        />
+      </label>
+      <br />
+      <input
+        class="submit"
+        type="submit"
+        value="Enviar"
+      />
+      <input
+        class="submit"
+        type="reset"
+        value="Redefinir"
+      />
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ContactForm > updates form data when fields are changed 1`] = `
+<div>
+  <form
+    class="sc-bcXHqe fmlIsJ"
+  >
+    <label>
+      Nome*
+      <input
+        name="name"
+        required=""
+        type="text"
+        value="John Due"
+      />
+    </label>
+    <br />
+    <label>
+      Assunto
+      <input
+        name="subject"
+        type="text"
+        value="Teste de formulário"
+      />
+    </label>
+    <br />
+    <label>
+      Email*
+      <input
+        name="email"
+        required=""
+        type="email"
+        value="john@example.com"
+      />
+    </label>
+    <br />
+    <label>
+      Mensagem*
+      <textarea
+        name="message"
+      >
+        Olá, gostaria de fazer um teste de formulário.
+      </textarea>
+    </label>
+    <br />
+    <input
+      class="submit"
+      type="submit"
+      value="Enviar"
+    />
+    <input
+      class="submit"
+      type="reset"
+      value="Redefinir"
+    />
+  </form>
+</div>
+`;
