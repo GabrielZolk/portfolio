@@ -86,7 +86,7 @@
 
 <br>
 
-⚠ Apenas uma página onde contem todos reposítórios do Github com uma breve descrição e o link para cada repositório
+⚠ Apenas uma página onde contem todos repositórios do Github com uma breve descrição e o link para cada repositório
 
 <br>
 
