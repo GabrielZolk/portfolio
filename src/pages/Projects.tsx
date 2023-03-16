@@ -14,6 +14,12 @@ import img10 from '../imgs/portfolio/vidaemdia.png';
 import img11 from '../imgs/portfolio/workshop.png';
 import img12 from '../imgs/portfolio/churrascometro.png';
 import img13 from '../imgs/portfolio/tesla.png';
+import riotclient from '../imgs/portfolio/riotclient.png';
+import nubankangular from '../imgs/portfolio/nubankangular.png';
+import pokedex2 from '../imgs/portfolio/pokedex2.png';
+import lolgame from '../imgs/portfolio/lolgame.png'
+import piano from '../imgs/portfolio/piano.png'
+import nuuberwallet from '../imgs/portfolio/nuuberwallet.png'
 
 export default function Projects() {
   return (
@@ -96,6 +102,42 @@ export default function Projects() {
           <a href='https://gabrielzolk.github.io/churrascometro-barbecue-meter/' target="_blank">
             <img src={img12} alt="churrascometro app" />
             <p>Projeto Churrascômetro criado através de javascript</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://gabrielzolk.github.io/riot-client/' target="_blank">
+            <img src={riotclient} alt="riot client" />
+            <p>Interface do client da Riot Games</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://nubank-angular.vercel.app/' target="_blank">
+            <img src={nubankangular} alt="nubank em angular" />
+            <p>Aplicativo do Nubank versão web, desenvolvido com Angular</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://gabrielzolk.github.io/pokedex-2.0/' target="_blank">
+            <img src={pokedex2} alt="pokedex 2.0" />
+            <p>Pokedex 2.0 desenvolvida em JS Vanilla</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://gabrielzolk.github.io/LoL-Memory-Game/' target="_blank">
+            <img src={lolgame} alt="Memory Game League of Legends" />
+            <p>Jogo da memória com tema do League of Legends criado em JS Vanilla</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://github.com/GabrielZolk/enchanted-piano' target="_blank">
+            <img src={piano} alt="Piano" />
+            <p>Piano feito em JS Vanilla</p>
+          </a>
+        </div>
+        <div className='project'>
+          <a href='https://github.com/GabrielZolk?tab=repositories' target="_blank">
+            <img src={nuuberwallet} alt="Aplicativo Nubank Wallet, Nubank e Uber Mobile" />
+            <p>Alguns aplicativos Mobile desenvolvidos com react-native e flutter. São eles: NuWallet App, Nubank e Uber.</p>
           </a>
         </div>
       </div>
