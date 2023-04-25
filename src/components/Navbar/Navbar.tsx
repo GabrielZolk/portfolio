@@ -9,7 +9,6 @@ export default function Navbar() {
 
     return (
         <NavbarStyle>
-            <Affix offsetTop={0}>
                 <div className='sidebar'>
                     <img src={avatar} alt="avatar photo" />
                     <nav className='nav-container'>
@@ -26,7 +25,6 @@ export default function Navbar() {
                         <span>@2022 Portfolio - Todos direitos reservados</span>
                     </footer>
                 </div>
-                </Affix>
         </NavbarStyle>
     )
 }

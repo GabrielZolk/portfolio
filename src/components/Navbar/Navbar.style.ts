@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const NavbarStyle = styled.div`
-        display: flex;
+        
 
     .sidebar {
         border: 1px solid gray;
