@@ -41,7 +41,7 @@ overflow-y: hidden;
 
 h1 {
   font-weight: 200;
-  font-size: 60px;
+  font-size: 3.2rem;
   color: white;
   margin-bottom: 20px;
 }
@@ -52,7 +52,7 @@ h1 span {
 
 p {
   color: white;
-  font-size: 18px;
+  font-size: 1.2;
 }
 
 .icon {

@@ -56,7 +56,7 @@ const Background = styled.div`
     display: flex;
     margin: 100px auto;
     text-align: center;
-    width: 800px;
+    width: 60vw;
 }
 
 .repo-name li{
@@ -71,6 +71,7 @@ const Background = styled.div`
     font-size: 20px;
     color: white;
     padding-bottom: 20px;
+
 }
 
 
@@ -86,33 +87,24 @@ const Background = styled.div`
 
 @media (max-width: 1189px) {
 
-.repo-name {
-    font-size: 25px;
+.repo-name li{
+    font-size: 1.7rem;
 }
 
-p {
-    font-size: 18px;
-   
+.repo-name p {
+    font-size: 1rem;
 }
 
 }
 
-@media (max-width: 410px) {
-    .content-repo {
-    display: flex;
-    margin: 100px auto;
-    text-align: center;
-    width: 800px;
-}
+@media (max-width: 510px) {
 
-
-.repo-name {
+.repo-name li{
     font-size: 18px;
 }
 
-p {
-    font-size: 15px;
-   
+.repo-name p {
+    font-size: 0.8rem;
 }
 
 }

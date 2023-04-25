@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const NavbarStyle = styled.div`
-        width: 280px;
+        width: 20vw;
         height: 100vh;
     .sidebar {
         border: 1px solid gray;
         padding-top: 0.5rem;
         background-color: black;
-        width: 280px;
-        height: 100vh;
+        max-width: 20vw;
+        min-height: 100vh;
         text-align: center;
         position: fixed;
     }
@@ -116,6 +116,10 @@ export const NavbarStyle = styled.div`
             font-size: 0.6rem;
         }
 
+        .nav-item {
+            font-size: 0.5rem;
+        }
+
         footer {
             font-size: 0.9rem;
         }
@@ -129,6 +133,10 @@ export const NavbarStyle = styled.div`
 
         .nav-container {
             font-size: 0.5rem;
+        }
+
+        .nav-item {
+            font-size: 0.4rem;
         }
 
         footer {
