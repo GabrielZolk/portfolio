@@ -8,9 +8,7 @@ export default function Contact() {
     <>
       <Background>
         <Navbar />
-        
           <ContactForm />
-        
       </Background>
     </>
   )
@@ -19,5 +17,7 @@ export default function Contact() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 `

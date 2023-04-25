@@ -124,11 +124,14 @@ export default function Resume() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 
 .content {
   padding: 20px;
   width: 70vw;
+  margin-bottom: 50px;
 
   h1 {
     text-align: center;

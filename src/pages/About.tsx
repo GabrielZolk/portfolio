@@ -10,7 +10,7 @@ import "../index.css"
 
 export default function About() {
   const handleClick = () => {
-    window.location.href = "../../public/dev-port-pasqua.pdf";
+    window.location.href = "../../public/dev-port-pasqua";
   };
 
   return (
@@ -54,7 +54,9 @@ export default function About() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 
 .content {
   padding: 40px;

@@ -48,12 +48,13 @@ export default function Github() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 
 .content-repo {
     display: flex;
-    margin: 8vh 0 0 8vw;
+    margin: 100px auto;
     text-align: center;
     width: 800px;
 }
@@ -62,8 +63,8 @@ font-family: Nunito, sans-serif;
     color: #2196F3;
     font-size: 35px;
     list-style-type: none;
-    padding-bottom: 20px;
-    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
 
 p {
@@ -85,13 +86,6 @@ a {
 }
 
 @media (max-width: 1189px) {
-    .content-repo {
-    display: flex;
-    margin: 3.5vh 15px 0 3.5vw;
-    text-align: center;
-    width: 800px;
-}
-
 
 .repo-name {
     font-size: 25px;
@@ -107,7 +101,7 @@ p {
 @media (max-width: 410px) {
     .content-repo {
     display: flex;
-    margin: 1.5vh 8px 0 1.5vw;
+    margin: 100px auto;
     text-align: center;
     width: 800px;
 }

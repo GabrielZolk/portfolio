@@ -31,6 +31,7 @@ textarea {
 .submit {
     background: #2196F3;
     color: white;
+    cursor: pointer;
 }
 
 @media (max-width: 888px) {

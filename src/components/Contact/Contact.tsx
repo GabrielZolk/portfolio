@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FormStyle } from "./Contact.styled"
 
+
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -8,6 +10,15 @@ const ContactForm = () => {
     email: '',
     message: '',
   });
+
+  const resetForm = () => {
+    setFormData({
+      name: '',
+      subject: '',
+      email: '',
+      message: ''
+    });
+  };
 
   const handleChange = (event: any) => {
     setFormData({
@@ -74,10 +85,10 @@ const ContactForm = () => {
       </label>
       <br />
       <input className='submit' type="submit" value="Enviar" />
-      <input className='submit' type="reset" value="Redefinir" />
+      <input onClick={resetForm} className='submit' type="reset" value="Redefinir" />
     </FormStyle>
 
-  );
+);
 };
 
 export default ContactForm;

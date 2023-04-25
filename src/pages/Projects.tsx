@@ -148,19 +148,30 @@ export default function Projects() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 
 a {
   text-decoration: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .project {
-  margin: 4rem 0 0 2rem;
+  margin: 4rem 1rem 1rem 1rem;
   
 
   p {
@@ -182,56 +193,40 @@ a {
 
 @media (max-width: 1189px) {
   .projects {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
 }
 }
 
 @media (max-width: 1000px) {
 
 .projects {
-  display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin: 0 auto;
 }
 
 }
 
 @media (max-width: 565px) {
-  .project {
-  margin: 4rem 0 0 2rem;
-  
+  .project { 
 
   p {
     width: 15rem;
-    font-size: 1.1rem;
-    margin: 1.3rem 0 0 0;
-    color: white;
   }
 
   img {
     width: 15rem;
-    max-height: 10.351rem;
   }
 }
 }
 
 @media (max-width: 480px) {
   .project {
-  margin: 4rem 0 0 0;
-  
 
   p {
     width: 10rem;
-    font-size: 1.1rem;
-    margin: 1.3rem 0 0 0;
-    color: white;
   }
 
   img {
     width: 10rem;
-    max-height: 10.351rem;
   }
 }
 }

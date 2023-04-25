@@ -28,7 +28,9 @@ export default function Infos() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: Nunito, sans-serif;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 100%;
 
 .content {
   margin: 200px auto;
@@ -40,7 +42,6 @@ h1 {
   font-weight: 200;
   font-size: 60px;
   color: white;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -59,67 +60,16 @@ p {
   margin-right: 7px;
 }
 
-@media (max-width: 1200px) {
-  
-  .content {
-  margin: 200px auto;
-  width: 600px;
-  text-align: center;
-}
-
-h1 {
-  font-weight: 200;
-  font-size: 70px;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-h1 span {
-  color: #2196F3;
-}
-
-p {
-  color: white;
-  font-size: 30px;
-}
-
-.icon {
-  color: #2196F3;
-  margin-top: 10px;
-  margin-right: 7px;
-}
-}
 
 @media (max-width: 480px) {
 
-  .content {
-  margin: 200px auto;
-  width: 600px;
-  text-align: center;
-}
-
 h1 {
-  font-weight: 200;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-h1 span {
-  color: #2196F3;
+  font-size: 1.8rem;
 }
 
 p {
-  color: white;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
-.icon {
-  color: #2196F3;
-  margin-top: 10px;
-  margin-right: 7px;
-}
 }
 `
