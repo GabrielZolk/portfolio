@@ -13,7 +13,7 @@ export default function Navbar() {
                     <img src={avatar} alt="avatar photo" />
                     <nav className='nav-container'>
                         <ul>
-                        <li><NavLink to="/" className="nav-item">INFOS</NavLink></li>
+                            <li><NavLink to="/" className="nav-item">INFOS</NavLink></li>
                             <li><NavLink to="/about" className="nav-item">SOBRE MIM</NavLink></li>
                             <li><NavLink to="/resume" className="nav-item">CURRÍCULO</NavLink></li>
                             <li><NavLink to="/projects" className="nav-item">PROJETOS</NavLink></li>

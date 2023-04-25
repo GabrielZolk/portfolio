@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const NavbarStyle = styled.div`
-        
-
+        width: 25vw;
+        height: 100vh;
     .sidebar {
         border: 1px solid gray;
         padding-top: 30px;
@@ -10,6 +10,7 @@ export const NavbarStyle = styled.div`
         width: 25vw;
         height: 100vh;
         text-align: center;
+        position: fixed;
     }
 
     img {
@@ -47,7 +48,6 @@ export const NavbarStyle = styled.div`
     footer {
         color: white;
         font-size: 30px;
-        padding-top: 15px;
     }
     
     @keyframes font-hover {
