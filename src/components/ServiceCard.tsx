@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ServiceCard({image, title, paragraph}: any) {
+function ServiceCard({ image, title, paragraph }: any) {
     return (
         <ServiceCardStyled >
             <div className="container">
-                <img src={image} alt=""/>
+                <img src={image} alt="" />
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>
@@ -20,6 +20,9 @@ const ServiceCardStyled = styled.div`
     }
     .container{
         padding-right: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         h4{
             color: white;
             font-size: 1.6rem;
@@ -27,6 +30,19 @@ const ServiceCardStyled = styled.div`
             
         }
     }
+
+@media (max-width: 496px) {
+
+ .container {
+        display: flex;
+        flex-direction: column;
+ }
+
+ h4 {
+         font-size: 1rem;
+            
+ }
+}
 `;
 
 export default ServiceCard;

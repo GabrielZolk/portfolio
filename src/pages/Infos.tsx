@@ -31,6 +31,7 @@ display: flex;
 font-family: 'Nunito', sans-serif;
 width: 100%;
 height: 100%;
+overflow-y: hidden;
 
 .content {
   margin: 200px auto;

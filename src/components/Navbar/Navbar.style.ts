@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const NavbarStyle = styled.div`
-        width: 25vw;
+    
+    width: 20vw;
         height: 100vh;
     .sidebar {
         border: 1px solid gray;
-        padding-top: 30px;
+        padding-top: 0.5rem;
         background-color: black;
-        width: 25vw;
+        width: 20vw;
         height: 100vh;
         text-align: center;
         position: fixed;
@@ -15,29 +16,33 @@ export const NavbarStyle = styled.div`
 
     img {
         border: 4px solid white;
-        width: 230px;
-        height: 230px;
-        border-radius: 500px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
         object-fit: cover;
     }
 
     .nav-container {
         border: 1px solid gray;
         color: white;
-        margin-top: 40px;
+        margin-top: 0.3rem;
         letter-spacing: 2px;
-        font-size: 30px; 
+    }
+
+    .nav-item {
+        font-size: 30px;
     }
 
     nav ul {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .nav-container ul li {
         list-style-type: none;
         line-height: 50px;
         transition: transform 0.3s;
+  
     }
 
     .nav-container ul li:hover {
@@ -47,7 +52,13 @@ export const NavbarStyle = styled.div`
 
     footer {
         color: white;
-        font-size: 30px;
+        font-size: 1.3rem;
+        padding-top: 1.3rem;
+    }
+
+    footer {
+        color: white;
+        background-color: black;
     }
     
     @keyframes font-hover {

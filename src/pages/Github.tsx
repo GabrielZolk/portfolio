@@ -32,8 +32,8 @@ export default function Github() {
                 <div className='content-repo'>
                     <ul>
                         {repositories.map((repo: RepoType) => (
-                            <div>
-                                <li className='repo-name'>{repo.name.toUpperCase()}</li>
+                            <div className='repo-name'>
+                                <li>{repo.name.toUpperCase()}</li>
                                 <p>{repo.description ? repo.description : "Sem descrição"}</p>
                                 <a href={repo.svn_url}>Diretório</a>
                             </div>
@@ -46,11 +46,11 @@ export default function Github() {
 }
 
 const Background = styled.div`
-background-color: #111111;
-display: flex;
-font-family: 'Nunito', sans-serif;
-width: 100%;
-height: 100%;
+    background-color: #111111;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
 
 .content-repo {
     display: flex;
@@ -59,7 +59,7 @@ height: 100%;
     width: 800px;
 }
 
-.repo-name {
+.repo-name li{
     color: #2196F3;
     font-size: 35px;
     list-style-type: none;
@@ -67,15 +67,14 @@ height: 100%;
     padding-top: 40px;
 }
 
-p {
+.repo-name p {
     font-size: 20px;
     color: white;
     padding-bottom: 20px;
-   
 }
 
 
-a {
+.repo-name a {
   color: #2196F3;
   text-decoration: none;
   

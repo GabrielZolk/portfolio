@@ -109,7 +109,7 @@ button {
 h2 {
   font-weight: 300;
   font-size: 90px;
-  margin: 120px 0 0 0;
+  margin: 120px 0 0 0px;
   color: white;
 }
 

@@ -148,11 +148,10 @@ export default function Projects() {
 const Background = styled.div`
 background-color: #111111;
 display: flex;
-font-family: 'Nunito', sans-serif;
 width: 100%;
 height: 100%;
 
-a {
+.project a {
   text-decoration: none;
   margin: 0 auto;
   display: flex;
