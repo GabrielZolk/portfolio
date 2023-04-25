@@ -1,14 +1,13 @@
 import styled from 'styled-components'
 
 export const NavbarStyle = styled.div`
-    
-    width: 20vw;
+        width: 280px;
         height: 100vh;
     .sidebar {
         border: 1px solid gray;
         padding-top: 0.5rem;
         background-color: black;
-        width: 20vw;
+        width: 280px;
         height: 100vh;
         text-align: center;
         position: fixed;
@@ -30,7 +29,7 @@ export const NavbarStyle = styled.div`
     }
 
     .nav-item {
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     nav ul {
@@ -42,7 +41,6 @@ export const NavbarStyle = styled.div`
         list-style-type: none;
         line-height: 50px;
         transition: transform 0.3s;
-  
     }
 
     .nav-container ul li:hover {
@@ -54,11 +52,6 @@ export const NavbarStyle = styled.div`
         color: white;
         font-size: 1.3rem;
         padding-top: 1.3rem;
-    }
-
-    footer {
-        color: white;
-        background-color: black;
     }
     
     @keyframes font-hover {
@@ -80,66 +73,66 @@ export const NavbarStyle = styled.div`
 
     @media (max-width: 1110px) {
         img {     
-            width: 180px;
-            height: 180px;   
+            width: 150px;
+            height: 150px;   
         }
     }
 
     @media (max-width: 944px) {
         footer {
-            font-size: 20px;
+            font-size: 1rem;
         }
     }
     
     @media (max-width: 799px) {
         img {
-            width: 130px;
-            height: 130px;
+            width: 80px;
+            height: 80px;
         }
 
-        .nav-container {
-            font-size: 20px;
+        .nav-item {
+            font-size: 0.9rem;
         }
     }
 
     @media (max-width: 557px) {
         img {
-            width: 90px;
-            height: 90px;
+            width: 70px;
+            height: 70px;
         }
 
-        .nav-container {
-            font-size: 14px;
+        .nav-item {
+            font-size: 0.6rem;
         }
     }
 
     @media (max-width: 419px) {
         img {
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
         }
 
         .nav-container {
-            font-size: 10px;
+            font-size: 0.6rem;
         }
 
         footer {
-            font-size: 15px;
+            font-size: 0.9rem;
         }
     }
 
     @media (max-width: 340px) {
         img {
-            width: 70px;
-            height: 70px;
+            width: 50px;
+            height: 50px;
         }
 
         .nav-container {
-            font-size: 8px;
+            font-size: 0.5rem;
         }
 
         footer {
-            font-size: 12px;
+            font-size: 0.6rem;
         }
     }
 
